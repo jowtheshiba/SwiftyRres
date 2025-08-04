@@ -17,6 +17,7 @@ let package = Package(
         .target(
             name: "RresC",
             sources: ["rres_impl.c"],
+            publicHeadersPath: "rres/src",
             cSettings: [
                 .define("RRES_IMPLEMENTATION"),
                 .headerSearchPath("rres/src")
