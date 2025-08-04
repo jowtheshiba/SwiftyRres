@@ -2,6 +2,8 @@
 
 A Swift wrapper for the [RRES (Resource File Format)](https://github.com/raysan5/rres) library, providing easy access to resource file operations in Swift applications.
 
+This project includes the original RRES library as a git submodule to ensure compatibility with the latest version.
+
 ## Features
 
 - **Multi-platform support**: macOS, Linux
@@ -20,6 +22,24 @@ Add to your `Package.swift`:
 dependencies: [
     .package(url: "https://github.com/yourusername/SwiftyRres.git", from: "1.0.0")
 ]
+```
+
+### Development Setup
+
+If you're cloning this repository for development, make sure to initialize the submodules:
+
+```bash
+git clone https://github.com/yourusername/SwiftyRres.git
+cd SwiftyRres
+git submodule update --init --recursive
+```
+
+### Updating RRES Library
+
+To update to the latest version of the RRES library:
+
+```bash
+git submodule update --remote Sources/RresC/rres
 ```
 
 ## Quick Start
