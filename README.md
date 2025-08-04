@@ -1,5 +1,9 @@
 # SwiftyRres
 
+[![Version](https://img.shields.io/badge/version-v1.0-blue.svg)](https://github.com/yourusername/SwiftyRres)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/yourusername/SwiftyRres)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A Swift wrapper for the [RRES (Resource File Format)](https://github.com/raysan5/rres) library, providing easy access to resource file operations in Swift applications.
 
 This project includes the original RRES library as a git submodule to ensure compatibility with the latest version.
